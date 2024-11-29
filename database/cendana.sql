@@ -118,6 +118,22 @@ INSERT INTO `pegawai` (`id`, `nama`, `telp`, `id_kota`, `id_kelamin`, `id_posisi
 ('2', 'Wawan Dwi Prasetyo', '085745966707', 4, 1, 4, 1);
 
 -- --------------------------------------------------------
+CREATE TABLE `mitra` (
+  `id` int(6) NOT NULL,
+  `nama` varchar(255) DEFAULT NULL,
+  'alamat' varchar(255) DEFAULT NULL,
+  'nama_pemilik' varchar(255) DEFAULT NULL,
+  `telephone` varchar(255) DEFAULT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `pegawai`
+--
+
+INSERT INTO `mitra` (`id`, `nama`, `alamat`, `nama_pemilik`, `telephone`) VALUES
+('10', 'Antony Febriansyah Hartono', '082199568540', 1, 1, 1, 1),
+('11', 'Hafizh Asrofil Al Banna', '087859615271', 1, 1, 1, 1),
+('12', 'Faiq Fajrullah', '085736333728', 1, 1, 2, 1),
 
 --
 -- Struktur dari tabel `posisi`

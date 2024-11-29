@@ -46,6 +46,14 @@
           <span>Data Kota</span>
         </a>
       </li>
+
+      <li <?php if ($page == 'kota') {echo 'class="active"';} ?>>
+        <a href="<?php echo base_url('Mitra'); ?>">
+          <i class="fa fa-location-arrow"></i>
+          <span>Data Mitra</span>
+        </a>
+      </li>
+
     </ul>
     <!-- /.sidebar-menu -->
   </section>

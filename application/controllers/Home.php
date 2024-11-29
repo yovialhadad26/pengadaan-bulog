@@ -52,7 +52,7 @@ class Home extends AUTH_Controller {
 
 		$data['page'] 			= "home";
 		$data['judul'] 			= "Beranda";
-		$data['deskripsi'] 		= "Manage Data CRUD";
+		$data['deskripsi'] 		= "Manage Data Pengadaan Malang";
 		$this->template->views('home', $data);
 	}
 }
